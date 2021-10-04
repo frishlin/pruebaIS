@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Introduce tus ddatos</h1>
+    <form method="post" action="valida.php">
+
+        <!--CUADRO DE TEXTO-->
+        nombre <br>
+        <input type="text" name="nome"> <br>
+        apellido <br>
+        <input type="text" name="cognome"> <br>
+        
+        <!--selectbox-->
+        pais <br>
+        <select name="paese" id="">
+            <option value="I">Italia</option>
+            <option value="E">Exterior</option>
+        </select><br>
+
+
+        <!-- RADIO -->
+        Sexo<br>
+        <input type="radio" name="sesso" value="M"> M<br>
+        <input type="radio" name="sesso" value="F"> F<br>
+
+        <!-- checkbox -->
+        tipo de trabajo <br>
+        <input type="checkbox" name="la-voro" value="A"> Artesano <br>
+        <input type="checkbox" name="la-voro" value="D"> Dirigente <br>
+        <input type="checkbox" name="la-voro" value="I"> Empleado <br>
+        <input type="checkbox" name="la-voro" value="O"> Trabajador <br>
+        
+        <!-- textarea -->
+        comentarios o preguntas <br>
+        <textarea name="commenti" id="" cols="30" rows="5"></textarea>
+        <br><br>
+
+        <!-- submit -->
+        <input type="submit" name="envia" value="Envía los datos">
+
+    </form>
+</body>
+</html>
